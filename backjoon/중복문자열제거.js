@@ -11,13 +11,13 @@ function getStr(str){
             }
 
         }else{
-            //이미 저장된 문자열에서 중복된 문자부터 제외하고
+            //이미 저장된 문자열에서 중복된ㅌ 문자부터 제외하고
             sliceStr = sliceStr.slice( sliceStr.indexOf(str[i]) + 1 )
             //현재문자 추가.
             sliceStr.push(str[i])
         }
     }
 
-    return resultStr
+    return resultStrㅐ
 }
 getStr('helloworld')
