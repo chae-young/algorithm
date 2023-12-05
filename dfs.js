@@ -32,7 +32,6 @@ function dfs(graph,visit,cur){
         return;
     }
     visit[cur] = 1;
-    console.log(cur);
     graph[cur].forEach((next) => dfs(graph,visit,next))
 }
 
@@ -58,7 +57,7 @@ graph[10].push(12);
 graph[10].push(13);
 
 dfs(graph,visit,1);
-
+console.log(graph)
 
 
 /* 
