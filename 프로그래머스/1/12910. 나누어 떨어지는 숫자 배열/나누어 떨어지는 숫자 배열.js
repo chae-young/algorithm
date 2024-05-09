@@ -8,7 +8,5 @@ function solution(arr, divisor) {
         }
     })
     
-    if(answer.length === 0) answer.push(-1)
-    
-    return answer
+    return answer.length === 0 ? [-1] : answer
 }
