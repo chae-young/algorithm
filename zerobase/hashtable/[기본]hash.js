@@ -1,6 +1,9 @@
 /* 
     Class: Hash Map
     Function: set(key,value), del(key), get(key), hashing(key), print
+
+    기본 해시 테이블은 충돌이 해결되지 않는다.
+    해시 테이블에 기존 데이터가 있으면 못들어감
 */
 
 class HashMap {
